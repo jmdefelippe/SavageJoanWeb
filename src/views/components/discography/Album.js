@@ -1,17 +1,17 @@
 import React from 'react';
 import { styles } from './Styles';
-
 import Songs from './Songs';
 
 const Album = ({ album }) => {
     const { customAlbumContainer, customH1, customImage } = styles;
+    const { id, artist, title, year, urlImage, urlYoutube, urlSpotify } = album;
 
     return (
-        <div key={album.id} className={customAlbumContainer}>
-            <a href={album.urlYoutube} target="_blank">
-                <img className={customImage} src={album.urlImage} title={album.title} />
+        <div key={id} className={customAlbumContainer}>
+            <a href={urlYoutube} target="_blank">
+                <img className={customImage} src={urlImage} title={title} />
             </a>
-            <h1 className={customH1}>{album.artist} - {album.title} ({album.year})</h1>
+            <h1 className={customH1}>{artist} - {title} ({year})</h1>
             <Songs album={album} />
         </div>
     );
