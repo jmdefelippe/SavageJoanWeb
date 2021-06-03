@@ -6,6 +6,6 @@ export const styles = {
     headerMenuVisible: `w-full block flex-grow lg:flex lg:items-center lg:w-auto text-center lg:flex-wrap`,
     headerMenuHidden: `w-full block flex-grow lg:flex lg:items-center lg:w-auto text-center lg:flex-wrap hidden`,
 
-    footer: `grid grid-cols-1 text-center py-4 bg-red-600`,
+    footer: `text-center py-4 bg-red-600`,
     textFooter: `text-white text-sm`
 }
