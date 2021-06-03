@@ -10,7 +10,7 @@ const Footer = ({ title }) => {
     return (
         <footer className={footer}>
             <SocialNetworks /> 
-            <p className={textFooter}>{title} | {year}</p>
+            <p className={textFooter}> © {year} {title} </p>
             <p className={textFooter}>Joan Manuel Defelippe</p>
         </footer>
     

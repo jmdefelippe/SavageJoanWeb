@@ -12,7 +12,7 @@ const SocialNetworks = () => {
     return (
         <div className="flex flex-row justify-center mb-4">
             {links.map((link) => (
-                <SocialIcon url={link.urlSocialNetwork} bgColor="white"
+                <SocialIcon url={link.urlSocialNetwork} bgColor="white" target="_blank"
                     style={{ height: 40, width: 40, marginInline: 5 }}
                 />
             ))}
