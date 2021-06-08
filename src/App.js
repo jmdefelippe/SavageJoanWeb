@@ -16,7 +16,7 @@ import ScreenBackingTracks from "./views/screens/backingTracks";
 import ScreenVideos from "./views/screens/videos";
 import ScreenPhotos from "./views/screens/photos";
 import ScreenContact from "./views/screens/contact";
-
+import ScreenLyrics from "./views/screens/lyrics";
 
 function App() {
   return (
@@ -33,6 +33,7 @@ function App() {
             <Route path="/videos" component={ScreenVideos} />
             <Route path="/fotos" component={ScreenPhotos} />
             <Route path="/contacto" component={ScreenContact} />
+            <Route path="/lyrics" component={ScreenLyrics} />
           </Switch>
         </Layout>
       </Router>
