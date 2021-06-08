@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
         <div>
             <Header />
             <div className="bg-black min-h-screen">
-                <main className="min-h-screen bg-black text-white py-6 px-10 xl:px-2 xl:w-5/6 mx-auto">
+                <main className="min-h-screen bg-black text-white py-6 px-4 xl:px-2 xl:w-5/6 mx-auto">
                     {children}
                 </main>
             
