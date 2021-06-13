@@ -4,10 +4,10 @@ import Songs from './Songs';
 
 const Album = ({ album }) => {
     const { customAlbumContainer, customH1, customImage } = styles;
-    const { id, artist, title, year, urlImage, urlYoutube, urlSpotify } = album;
+    const { artist, title, year, urlImage, urlYoutube, urlSpotify } = album;
 
     return (
-        <div key={id} className={customAlbumContainer}>
+        <div className={customAlbumContainer}>
             <a href={urlYoutube} target="_blank">
                 <img className={customImage} src={urlImage} title={title} />
             </a>

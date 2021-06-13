@@ -1,5 +1,5 @@
 import React from 'react';
-import Cards from '../../components/downloads/Cards';
+import Cards from '../../components/cards/Cards';
 import { getCards } from '../../../data/Cards';
 
 const Downloads = () => {
